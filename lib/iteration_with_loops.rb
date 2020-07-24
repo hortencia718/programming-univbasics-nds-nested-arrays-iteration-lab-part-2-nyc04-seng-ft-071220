@@ -7,14 +7,14 @@ def find_min_in_nested_arrays(src)
     low_value = 100
   while inner_count < src[count].length do # checking if the inner count is one less than the inner array.
      
-     if src[count][inner_count] < low_value 
+     if src[count][inner_count] < low_value # compare 
        
        low_value = src[count][inner_count]
      end 
-      inner_count += 1
+      inner_count += 1 # for loop only keeping adding until loop is done !
    end 
    new_array << low_value
-    count += 1 
+    count += 1  
  
    
   end 
