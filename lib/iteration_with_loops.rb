@@ -13,10 +13,10 @@ def find_min_in_nested_arrays(src)
      end 
       inner_count += 1
    end 
-  
+  binding.pry
    
   end 
-   binding.pry
+  # binding.pry
   end
   
   # src will be an array of arrays of integers
