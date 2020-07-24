@@ -14,7 +14,7 @@ def find_min_in_nested_arrays(src)
       inner_count += 1 # for loop only keeping adding until loop is done !
    end 
    new_array << low_value
-    count += 1  
+    count += 1  # loop for outter array, or first while loop 
  
    
   end 
