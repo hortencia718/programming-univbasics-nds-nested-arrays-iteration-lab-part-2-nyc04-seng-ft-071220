@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(src)
   while count < src.length do
     inner_count = 0 
     low_value = 100
-  while inner_count < src[count].length do # 
+  while inner_count < src[count].length do # checking if the inner count is one less than the inner array.
      
      if src[count][inner_count] < low_value
        
