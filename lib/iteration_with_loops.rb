@@ -2,7 +2,7 @@ require 'pry'
 def find_min_in_nested_arrays(src)
   new_array =[]
   count = 0 
-  while src < new_array.length do
+  while count < new_array.length do
     
   
    
