@@ -7,12 +7,12 @@ def find_min_in_nested_arrays(src)
     low_value = 100
    while inner_count < src[count].length do 
   src[count][inner_count]
-     
+      binding.pry
    end 
   
    
   end 
-   binding.pry
+  # binding.pry
   end
   
   # src will be an array of arrays of integers
