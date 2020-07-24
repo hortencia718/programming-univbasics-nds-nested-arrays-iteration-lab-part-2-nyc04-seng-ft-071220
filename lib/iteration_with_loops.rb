@@ -11,12 +11,12 @@ def find_min_in_nested_arrays(src)
        
        low_value = src[count][inner_count]
      end 
-      binding.pry
+      inner_count += 1
    end 
   
    
   end 
-  # binding.pry
+   binding.pry
   end
   
   # src will be an array of arrays of integers
